@@ -1433,8 +1433,6 @@ html,
 body,
 #colorlib-page,
 .container-wrap,
-#colorlib-main,
-#colorlib-aside,
 .project-card,
 .colorlib-feature .colorlib-icon,
 .panel,
@@ -1445,6 +1443,36 @@ body,
   -webkit-transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
   -o-transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
   transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#colorlib-aside,
+#colorlib-main {
+  -webkit-transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease, -webkit-transform 0.5s ease;
+  -o-transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease, -o-transform 0.5s ease;
+  transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease, transform 0.5s ease;
+}
+
+#colorlib-aside #colorlib-main-menu ul li a {
+  -webkit-transition: color 0.2s ease;
+  -o-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+
+#colorlib-aside #colorlib-main-menu ul li a:after {
+  -webkit-transition: background-color 0.2s ease, -webkit-transform 0.25s ease;
+  -o-transition: background-color 0.2s ease, -o-transform 0.25s ease;
+  transition: background-color 0.2s ease, transform 0.25s ease;
+}
+
+html.theme-switching #colorlib-aside,
+html.theme-switching #colorlib-aside *,
+html.theme-switching #colorlib-aside *:before,
+html.theme-switching #colorlib-aside *:after {
+  -webkit-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+  -webkit-animation: none !important;
+  animation: none !important;
 }
 
 .theme-toggle-wrap {

@@ -45,10 +45,11 @@
 		}
 
 		var setTheme = function(theme) {
-			var isDark = theme === 'dark';
+			var isDark = theme === 'dark',
+				$root = $('html');
 
-			$('html').toggleClass('theme-dark', isDark);
-			$('body').toggleClass('theme-dark', isDark);
+			$root.addClass('theme-switching');
+			$root.toggleClass('theme-dark', isDark);
 			$toggle.attr('aria-pressed', isDark ? 'true' : 'false');
 			$toggle.attr('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
 			$toggle.find('i')
@@ -59,6 +60,10 @@
 			try {
 				localStorage.setItem(storageKey, theme);
 			} catch (error) {}
+
+			window.setTimeout(function() {
+				$root.removeClass('theme-switching');
+			}, 80);
 		};
 
 		var getSavedTheme = function() {
@@ -71,7 +76,9 @@
 
 		setTheme(getSavedTheme() === 'dark' || $('html').hasClass('theme-dark') ? 'dark' : 'light');
 
-		$toggle.on('click', function() {
+		$toggle.on('click', function(event) {
+			event.preventDefault();
+			event.stopPropagation();
 			setTheme($('html').hasClass('theme-dark') ? 'light' : 'dark');
 		});
 	};
