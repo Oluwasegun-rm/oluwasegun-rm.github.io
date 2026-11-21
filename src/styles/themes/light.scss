@@ -1,0 +1,15 @@
+@mixin palette {
+  --bg: #fafaf9;
+  --fg: #19191a;
+  --body: #3b3d40;
+  --muted: #74787e;
+  --faint: #9a9da2;
+  --line: #e8e8e5;
+  --accent: #2f55c4;
+  --live: #2f9e63;
+  color-scheme: light;
+}
+
+:root {
+  @include palette;
+}

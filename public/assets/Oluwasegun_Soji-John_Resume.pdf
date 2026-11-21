@@ -1,0 +1,161 @@
+%PDF-1.4
+1 0 obj
+<</Type/Catalog/Pages 2 0 R>>
+endobj
+2 0 obj
+<</Type/Pages/Kids[3 0 R]/Count 1>>
+endobj
+3 0 obj
+<</Type/Page/Parent 2 0 R/MediaBox[0 0 612 792]/Resources<</Font<</F0 5 0 R/F1 6 0 R/F2 7 0 R/F3 8 0 R>>>>/Contents 4 0 R/Annots[9 0 R 10 0 R 11 0 R 12 0 R 13 0 R 14 0 R 15 0 R]>>
+endobj
+4 0 obj
+<</Length 6879>>
+stream
+BT /F1 22 Tf 199.9 750 Td (Oluwasegun Soji-John) Tj ET
+BT /F0 9.5 Tf 186.5 735 Td (240-653-1156 | segunsojijohn@gmail.com | LinkedIn | GitHub) Tj ET
+BT /F0 12 Tf 40 718 Td (EDUCATION) Tj ET
+0.6 w 40 715 m 572 715 l S
+BT /F1 11 Tf 46 701 Td (Morgan State University) Tj ET
+BT /F0 11 Tf 504.8 701 Td (Baltimore, MD) Tj ET
+BT /F2 10 Tf 46 689 Td (Bachelor of Science in Computer Science — GPA: 3.92/4.0) Tj ET
+BT /F2 10 Tf 469.3 689 Td (Expected December 2027) Tj ET
+BT /F0 12 Tf 40 672 Td (TECHNICAL SKILLS) Tj ET
+0.6 w 40 669 m 572 669 l S
+BT /F1 10 Tf 46 657 Td (Languages: ) Tj ET
+BT /F0 10 Tf 98 657 Td (Python, Java, JavaScript/TypeScript, SQL, Bash) Tj ET
+BT /F1 10 Tf 46 645 Td (Backend & Web: ) Tj ET
+BT /F0 10 Tf 122.4 645 Td (FastAPI, Flask, Tornado, Node.js, React, Next.js, REST APIs, WebSockets) Tj ET
+BT /F1 10 Tf 46 633 Td (Cloud & DevOps: ) Tj ET
+BT /F0 10 Tf 125.2 633 Td (AWS, GCP, Azure, Docker, Linux, CI/CD, Git, pytest) Tj ET
+BT /F1 10 Tf 46 621 Td (Databases: ) Tj ET
+BT /F0 10 Tf 95.2 621 Td (PostgreSQL, MongoDB, Redis, SQLite) Tj ET
+BT /F1 10 Tf 46 609 Td (AI/ML: ) Tj ET
+BT /F0 10 Tf 81.8 609 Td (OpenAI API, LLM Tool Calling, PyTorch, scikit-learn, Pandas, NumPy) Tj ET
+BT /F0 12 Tf 40 592 Td (WORK EXPERIENCE) Tj ET
+0.6 w 40 589 m 572 589 l S
+BT /F1 11 Tf 46 575 Td (Undergraduate Researcher, AI for Satellite Precipitation) Tj ET
+BT /F0 11 Tf 489.2 575 Td (Feb 2026 - Present) Tj ET
+BT /F2 10 Tf 46 563 Td (Climate Science Division, Morgan State University \(Advisor: Dr. Xiaowen Li\)) Tj ET
+BT /F2 10 Tf 511.4 563 Td (Baltimore, MD) Tj ET
+BT /F0 10 Tf 54 550.7 Td (–) Tj ET
+BT /F0 10 Tf 64 550.7 Td (Built a fault-tolerant Python ETL pipeline \(h5py, NumPy, PostgreSQL\) that ingests NASA satellite precipitation data, crops) Tj ET
+BT /F0 10 Tf 64 538.4 Td (~1 GB files to target regions, and compresses them by over 100×, processing 1+ TB unattended with resumable runs.) Tj ET
+BT /F0 10 Tf 54 526.1 Td (–) Tj ET
+BT /F0 10 Tf 64 526.1 Td (Designed a multi-user labelling service \(Tornado, PostgreSQL\) that distributes work to 6 remote annotators, using) Tj ET
+BT /F0 10 Tf 64 513.8 Td (heartbeat-based claims to prevent duplicate work and a retry queue to sync labels to cloud storage.) Tj ET
+BT /F0 10 Tf 54 501.5 Td (–) Tj ET
+BT /F0 10 Tf 64 501.5 Td (Developed an interactive storm-annotation tool \(Matplotlib, Cartopy\) that renders radar cross-sections and 3-D views using) Tj ET
+BT /F0 10 Tf 64 489.2 Td (KD-tree spatial indexing and interpolation, used to label 500+ storm systems for ML training.) Tj ET
+BT /F0 10 Tf 54 476.9 Td (–) Tj ET
+BT /F0 10 Tf 64 476.9 Td (Built a Next.js/TypeScript dashboard to review labelled storms on an interactive map and export curated datasets.) Tj ET
+BT /F1 11 Tf 46 462.9 Td (AI/ML Research Intern) Tj ET
+BT /F0 11 Tf 461.4 462.9 Td (May 2026 - August 2026) Tj ET
+BT /F2 10 Tf 46 450.9 Td (Center for Equitable Artificial Intelligence and Machine Learning Systems) Tj ET
+BT /F2 10 Tf 511.4 450.9 Td (Baltimore, MD) Tj ET
+BT /F0 10 Tf 54 438.6 Td (–) Tj ET
+BT /F0 10 Tf 64 438.6 Td (Built reproducible Python preprocessing workflows for multi-omic data \(gene expression, genotype, DNA methylation\) from) Tj ET
+BT /F0 10 Tf 64 426.3 Td (111 patients for antidepressant-response prediction.) Tj ET
+BT /F0 10 Tf 54 414 Td (–) Tj ET
+BT /F0 10 Tf 64 414 Td (Benchmarked graph-based and conventional fusion models \(PyTorch, scikit-learn\) with stratified cross-validation and) Tj ET
+BT /F0 10 Tf 64 401.7 Td (ablation studies; co-authored a research paper and symposium presentation.) Tj ET
+BT /F1 11 Tf 46 387.7 Td (Software Engineering Intern) Tj ET
+BT /F0 11 Tf 461.4 387.7 Td (May 2025 - August 2025) Tj ET
+BT /F2 10 Tf 46 375.7 Td (Oracle Corporation) Tj ET
+BT /F2 10 Tf 497.8 375.7 Td (Redwood City, CA) Tj ET
+BT /F0 10 Tf 54 363.4 Td (–) Tj ET
+BT /F0 10 Tf 64 363.4 Td (Built an AI-powered enterprise assistant using Python, Oracle AI Agent Studio, and Fusion APIs, enabling users to monitor,) Tj ET
+BT /F0 10 Tf 64 351.1 Td (submit, and troubleshoot Enterprise Scheduler Service jobs through natural-language commands.) Tj ET
+BT /F0 10 Tf 54 338.8 Td (–) Tj ET
+BT /F0 10 Tf 64 338.8 Td (Developed backend integrations and flexible JSON-processing logic to retrieve, normalize, and analyze job metadata,) Tj ET
+BT /F0 10 Tf 64 326.5 Td (execution history, system status, and logs across heterogeneous ESS workflows.) Tj ET
+BT /F0 10 Tf 54 314.2 Td (–) Tj ET
+BT /F0 10 Tf 64 314.2 Td (Designed agent prompts, tool schemas, and orchestration logic to route user requests to the appropriate backend services and) Tj ET
+BT /F0 10 Tf 64 301.9 Td (translate complex ESS data and system errors into concise, business-friendly explanations.) Tj ET
+BT /F0 12 Tf 40 284.9 Td (PROJECTS) Tj ET
+0.6 w 40 281.9 m 572 281.9 l S
+BT /F1 11 Tf 46 267.9 Td (Fathom) Tj ET
+BT /F0 11 Tf 82.7 267.9 Td ( | ) Tj ET
+BT /F2 11 Tf 90.4 267.9 Td (React, FastAPI, WebSockets, OpenAI API) Tj ET
+BT /F0 11 Tf 530.1 267.9 Td (Apr 2026) Tj ET
+BT /F0 10 Tf 54 255.6 Td (–) Tj ET
+BT /F0 10 Tf 64 255.6 Td (Architected a real-time lecture assistant that streams classroom audio over WebSockets to an async FastAPI backend,) Tj ET
+BT /F0 10 Tf 64 243.3 Td (transcribing it incrementally and converting each lecture into structured LLM summaries.) Tj ET
+BT /F0 10 Tf 54 231 Td (–) Tj ET
+BT /F0 10 Tf 64 231 Td (Built the LLM layer \(OpenAI API\) and React UI for live transcripts, persistent sessions, and per-lecture Q&A.) Tj ET
+BT /F0 12 Tf 40 214 Td (SELECTED PUBLICATIONS) Tj ET
+0.6 w 40 211 m 572 211 l S
+BT /F0 10 Tf 54 198.7 Td (–) Tj ET
+BT /F0 10 Tf 64 198.7 Td (Co-author, Manifold-Informed Cohort Discovery: A Framework for Uncovering Latent Risk Signals in Imbalanced) Tj ET
+BT /F0 10 Tf 64 186.4 Td (Healthcare Data, AAAI 2026 Bridge Program on AI for Medicine & Healthcare \(PMLR 317\).) Tj ET
+BT /F0 10 Tf 54 174.1 Td (–) Tj ET
+BT /F0 10 Tf 64 174.1 Td (Co-author, Optimizing Insulin Dosing for Type 1 Diabetes with Thyroid Dysfunction Using Q-Learning, AAAI 2026 Bridge) Tj ET
+BT /F0 10 Tf 64 161.8 Td (Program on AI for Medicine & Healthcare \(PMLR 317\).) Tj ET
+BT /F0 12 Tf 40 144.8 Td (LEADERSHIP & IMPACT) Tj ET
+0.6 w 40 141.8 m 572 141.8 l S
+BT /F1 11 Tf 46 127.8 Td (President – MorganHacks) Tj ET
+BT /F0 11 Tf 486.8 127.8 Td (Nov 2025 - Present) Tj ET
+BT /F0 10 Tf 54 115.5 Td (–) Tj ET
+BT /F0 10 Tf 64 115.5 Td (Led MorganHacks 2026, attracting 400+ registrations and 180 participants while securing $40,000+ in sponsorships and) Tj ET
+BT /F0 10 Tf 64 103.2 Td (directing a cross-functional organizing team.) Tj ET
+BT /F0 12 Tf 40 86.2 Td (HONORS & AWARDS) Tj ET
+0.6 w 40 83.2 m 572 83.2 l S
+BT /F0 10 Tf 46 70.9 Td (1st Place, Morgan TechFest 2026  |  1st Place, MSU HackAI  |  2nd Place, Howard BisonHacks) Tj ET
+BT /F0 10 Tf 46 58.6 Td (5th Place, Google HBCU Hackathon  |  Dean’s List \(6 semesters\)) Tj ET
+endstream
+endobj
+5 0 obj
+<</Type/Font/Subtype/Type1/BaseFont/Times-Roman/Encoding/WinAnsiEncoding>>
+endobj
+6 0 obj
+<</Type/Font/Subtype/Type1/BaseFont/Times-Bold/Encoding/WinAnsiEncoding>>
+endobj
+7 0 obj
+<</Type/Font/Subtype/Type1/BaseFont/Times-Italic/Encoding/WinAnsiEncoding>>
+endobj
+8 0 obj
+<</Type/Font/Subtype/Type1/BaseFont/Times-BoldItalic/Encoding/WinAnsiEncoding>>
+endobj
+9 0 obj
+<</Type/Annot/Subtype/Link/Rect[247 732.5 348.9 743]/Border[0 0 0]/A<</S/URI/URI(mailto:segunsojijohn@gmail.com)>>>>
+endobj
+10 0 obj
+<</Type/Annot/Subtype/Link/Rect[355.5 732.5 390.4 743]/Border[0 0 0]/A<</S/URI/URI(https://www.linkedin.com/in/oluwasegun-soji-john/)>>>>
+endobj
+11 0 obj
+<</Type/Annot/Subtype/Link/Rect[397 732.5 425.5 743]/Border[0 0 0]/A<</S/URI/URI(https://github.com/Oluwasegun-rm)>>>>
+endobj
+12 0 obj
+<</Type/Annot/Subtype/Link/Rect[64 196.2 526.4 206.7]/Border[0 0 0]/A<</S/URI/URI(https://proceedings.mlr.press/v317/dacon26b.html)>>>>
+endobj
+13 0 obj
+<</Type/Annot/Subtype/Link/Rect[64 183.9 440.3 194.4]/Border[0 0 0]/A<</S/URI/URI(https://proceedings.mlr.press/v317/dacon26b.html)>>>>
+endobj
+14 0 obj
+<</Type/Annot/Subtype/Link/Rect[64 171.6 563.7 182.1]/Border[0 0 0]/A<</S/URI/URI(https://proceedings.mlr.press/v317/dacon26a.html)>>>>
+endobj
+15 0 obj
+<</Type/Annot/Subtype/Link/Rect[64 159.3 290.9 169.8]/Border[0 0 0]/A<</S/URI/URI(https://proceedings.mlr.press/v317/dacon26a.html)>>>>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000009 00000 n 
+0000000054 00000 n 
+0000000105 00000 n 
+0000000300 00000 n 
+0000007228 00000 n 
+0000007318 00000 n 
+0000007407 00000 n 
+0000007498 00000 n 
+0000007593 00000 n 
+0000007725 00000 n 
+0000007879 00000 n 
+0000008014 00000 n 
+0000008166 00000 n 
+0000008318 00000 n 
+0000008470 00000 n 
+trailer
+<</Size 16/Root 1 0 R/Info<</Title(Oluwasegun Soji-John Resume)/Author(Oluwasegun Soji-John)>>>>
+startxref
+8622
+%%EOF

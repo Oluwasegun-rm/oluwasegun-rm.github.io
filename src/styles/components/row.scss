@@ -1,0 +1,157 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+.row {
+  display: grid;
+  grid-template-columns: $year-column minmax(0, 1fr);
+  gap: 16px;
+  padding-block: 18px;
+  border-top: 1px solid var(--line);
+
+  @include phone {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2px;
+  }
+
+  &__year {
+    @include label;
+    font-size: 12px;
+    padding-top: 2px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  &__body {
+    min-width: 0;
+  }
+
+  &__title {
+    font-size: 14.5px;
+    font-weight: 500;
+    color: var(--fg);
+    text-wrap: pretty;
+  }
+
+  &__org {
+    color: var(--accent);
+  }
+
+  &__dash {
+    color: var(--faint);
+    font-weight: 400;
+  }
+
+  &__link {
+    transition: color 0.15s ease;
+
+    &:hover {
+      color: var(--accent);
+    }
+
+    &::after {
+      content: " ↗";
+      font-size: 0.85em;
+      color: var(--faint);
+    }
+  }
+
+  &__points {
+    display: grid;
+    gap: 3px;
+    margin-top: 6px;
+
+    li {
+      position: relative;
+      padding-left: 14px;
+
+      &::before {
+        content: "–";
+        position: absolute;
+        left: 0;
+        color: var(--faint);
+      }
+    }
+  }
+
+  &__meta {
+    @include label;
+    margin-top: 6px;
+
+    &--tight {
+      margin-top: 4px;
+    }
+
+    &--stack {
+      margin: 2px 0 6px;
+    }
+  }
+
+  &__award {
+    font-family: $mono;
+    font-size: 11.5px;
+    color: var(--accent);
+    margin-bottom: 4px;
+  }
+
+  &__badge {
+    font-family: $mono;
+    font-size: 11.5px;
+    font-weight: 400;
+    color: var(--accent);
+    margin-left: 8px;
+    white-space: nowrap;
+  }
+}
+
+.figures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 36px;
+  margin-top: 14px;
+
+  div {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  dd {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+  }
+
+  dt {
+    @include label;
+    font-size: 11px;
+  }
+}
+
+.pairs {
+  border-top: 1px solid var(--line);
+  padding-top: 11px;
+
+  div {
+    display: grid;
+    grid-template-columns: $year-column minmax(0, 1fr);
+    gap: 16px;
+    padding-block: 7px;
+
+    @include phone {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 0;
+    }
+  }
+
+  dt {
+    @include label;
+    padding-top: 2px;
+
+    &:empty {
+      @include phone {
+        display: none;
+      }
+    }
+  }
+}

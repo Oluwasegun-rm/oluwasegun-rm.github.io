@@ -1,0 +1,14 @@
+@use "variables" as *;
+
+@mixin phone {
+  @media (max-width: $phone) {
+    @content;
+  }
+}
+
+@mixin label {
+  font-family: $mono;
+  font-size: 11.5px;
+  font-weight: 400;
+  color: var(--faint);
+}

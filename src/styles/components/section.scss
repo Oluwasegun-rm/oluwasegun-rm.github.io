@@ -1,0 +1,13 @@
+@use "../abstracts/mixins" as *;
+
+.section {
+  display: grid;
+  scroll-margin-top: 32px;
+
+  &__title {
+    @include label;
+    color: var(--muted);
+    letter-spacing: 0.02em;
+    padding-bottom: 12px;
+  }
+}

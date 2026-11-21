@@ -1,0 +1,17 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+.page {
+  max-width: $page-width;
+  margin: 0 auto;
+  padding-block: 88px 112px;
+  padding-left: max(20px, env(safe-area-inset-left, 0px));
+  padding-right: max(20px, env(safe-area-inset-right, 0px));
+  display: grid;
+  gap: $section-gap;
+
+  @include phone {
+    padding-block: 48px 80px;
+    gap: 56px;
+  }
+}

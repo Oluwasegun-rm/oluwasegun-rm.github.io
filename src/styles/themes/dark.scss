@@ -1,0 +1,21 @@
+@mixin palette {
+  --bg: #0e0e0f;
+  --fg: #ececec;
+  --body: #c3c5c8;
+  --muted: #8f9399;
+  --faint: #6b6f75;
+  --line: #222325;
+  --accent: #8aa6ff;
+  --live: #4cc584;
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    @include palette;
+  }
+}
+
+:root[data-theme="dark"] {
+  @include palette;
+}

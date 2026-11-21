@@ -1,0 +1,42 @@
+.theme-toggle {
+  display: inline-grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+  }
+
+  &__sun {
+    display: none;
+  }
+}
+
+@mixin show-sun {
+  .theme-toggle__sun {
+    display: block;
+  }
+
+  .theme-toggle__moon {
+    display: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    @include show-sun;
+  }
+}
+
+:root[data-theme="dark"] {
+  @include show-sun;
+}
