@@ -190,9 +190,9 @@ export const honors: Honor[] = [
 ];
 
 export const skills: SkillGroup[] = [
-  { label: "languages", items: "Python, Java, TypeScript, JavaScript, SQL, Bash" },
-  { label: "ai / ml", items: "PyTorch, TensorFlow, scikit-learn, LLM tool calling, Pandas, NumPy" },
-  { label: "web", items: "FastAPI, Flask, Tornado, Node.js, React, Next.js, WebSockets" },
-  { label: "data", items: "PostgreSQL, MongoDB, Redis, SQLite" },
-  { label: "cloud", items: "AWS, GCP, Azure, Docker, Linux, CI/CD" },
+  { label: "languages", items: "python · java · javascript/typescript · sql · bash" },
+  { label: "ai / ml", items: "pytorch · tensorflow · scikit-learn · openai api · pandas · numpy · matplotlib · cartopy · h5py" },
+  { label: "cloud", items: "aws · gcp · azure · docker · linux · git · ci/cd · pytest" },
+  { label: "web", items: "react · next.js · node.js · fastapi · flask · tornado · websockets · rest apis" },
+  { label: "databases", items: "postgresql · mongodb · redis · sqlite" },
 ];
