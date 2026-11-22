@@ -28,7 +28,6 @@ export type Publication = {
   venue: string;
   href: string;
   award?: string;
-  figures: { value: string; label: string }[];
 };
 
 export type Project = {
@@ -134,10 +133,6 @@ export const publications: Publication[] = [
     venue: "co-author · aaai 2026 · 40th aaai conference on artificial intelligence · pmlr 317",
     href: "https://proceedings.mlr.press/v317/dacon26a",
     award: "best paper runner-up",
-    figures: [
-      { value: "15%", label: "more time in range" },
-      { value: "42%", label: "fewer hypoglycemic events" },
-    ],
   },
   {
     year: "2026",
@@ -145,7 +140,6 @@ export const publications: Publication[] = [
       "Manifold-Informed Cohort Discovery: A Framework for Uncovering Latent Risk Signals in Imbalanced Healthcare Data",
     venue: "co-author · aaai 2026 bridge · ai for medicine & healthcare · pmlr 317",
     href: "https://proceedings.mlr.press/v317/dacon26b.html",
-    figures: [{ value: "85.1%", label: "auroc, coronary heart disease risk" }],
   },
 ];
 
@@ -165,7 +159,6 @@ export const projects: Project[] = [
     stack: "react · typescript · node.js · twilio · llm",
     description:
       "Co-built a harvest-planning prototype for small farms. It reconciles changing buyer orders, field estimates and crew into one daily plan the farmer approves by SMS.",
-    href: "https://harvest-green-psi.vercel.app/",
   },
   {
     year: "2026",

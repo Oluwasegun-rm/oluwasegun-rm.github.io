@@ -15,14 +15,6 @@ export function PublicationsSection() {
             </SmartLink>
           </h3>
           <p className="row__meta row__meta--tight">{paper.venue}</p>
-          <dl className="figures">
-            {paper.figures.map((figure) => (
-              <div key={figure.label}>
-                <dt>{figure.label}</dt>
-                <dd>{figure.value}</dd>
-              </div>
-            ))}
-          </dl>
         </Row>
       ))}
     </Section>
