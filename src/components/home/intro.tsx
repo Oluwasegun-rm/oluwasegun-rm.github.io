@@ -42,11 +42,23 @@ export function Intro() {
           <span className="intro__pulse" aria-hidden="true" />
           now
         </span>
-        {profile.now}
-        <span className="intro__sep" aria-hidden="true">
-          ·
+        <span>
+          {profile.now}
+          <span className="intro__sep" aria-hidden="true">
+            ·
+          </span>
+          <span className="intro__interests">into {profile.interests}</span>
         </span>
-        <span className="intro__interests">into {profile.interests}</span>
+      </p>
+      <p className="intro__now intro__now--open">
+        <span className="intro__now-label intro__now-label--open">open to</span>
+        <span>
+          {profile.openTo}
+          <span className="intro__sep" aria-hidden="true">
+            ·
+          </span>
+          <span className="intro__interests">{profile.openToLater}</span>
+        </span>
       </p>
     </header>
   );

@@ -69,6 +69,8 @@ export const profile = {
   ],
   now: "AI for satellite precipitation at Morgan State",
   interests: "ai/ml, agents, real-world impact",
+  openTo: "SWE and ML internships for summer 2027",
+  openToLater: "new-grad roles from dec 2027",
 };
 
 export const links: ProfileLink[] = [
