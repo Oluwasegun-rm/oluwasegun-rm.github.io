@@ -19,6 +19,7 @@ export type Experience = {
   role: string;
   when: string;
   where: string;
+  team?: string;
   points: string[];
 };
 
@@ -83,18 +84,6 @@ export const links: ProfileLink[] = [
 
 export const experience: Experience[] = [
   {
-    start: "2026-05",
-    org: "CEAMLS",
-    role: "AI/ML Research Intern",
-    when: "may – aug 2026",
-    where: "baltimore, md",
-    points: [
-      "Aligned gene-expression, genotype and DNA-methylation data from 111 patients to predict antidepressant response.",
-      "Benchmarked graph-based and conventional fusion models with leakage-safe cross-validation and ablation studies.",
-      "Co-developed a signal-aware fusion method that down-weights noisy modalities, and contributed to a paper and symposium talk.",
-    ],
-  },
-  {
     start: "2026-02",
     org: "Morgan State University",
     role: "Undergraduate Researcher, AI for Satellite Precipitation",
@@ -107,12 +96,16 @@ export const experience: Experience[] = [
     ],
   },
   {
-    start: "2025-11",
-    org: "MorganHacks",
-    role: "President",
-    when: "nov 2025 – present",
+    start: "2026-05",
+    org: "CEAMLS",
+    role: "AI/ML Research Intern",
+    when: "may – aug 2026",
     where: "baltimore, md",
-    points: ["Led MorganHacks 2026: 400+ registrations, 180 hackers and $40K+ in sponsorships."],
+    points: [
+      "Aligned gene-expression, genotype and DNA-methylation data from 111 patients to predict antidepressant response.",
+      "Benchmarked graph-based and conventional fusion models with leakage-safe cross-validation and ablation studies.",
+      "Co-developed a signal-aware fusion method that down-weights noisy modalities, and contributed to a paper and symposium talk.",
+    ],
   },
   {
     start: "2025-05",
@@ -120,9 +113,23 @@ export const experience: Experience[] = [
     role: "Software Engineering Intern",
     when: "may – aug 2025",
     where: "redwood city, ca",
+    team: "fusion erp financials",
     points: [
-      "Built an AI assistant on Oracle AI Agent Studio and Fusion APIs that monitors, submits and troubleshoots scheduler jobs in plain language.",
-      "Designed the agent's prompts, tool schemas and routing, and turned raw job logs into short, readable explanations.",
+      "Built an AI-powered enterprise assistant with Python, Oracle AI Agent Studio and Fusion APIs that lets users monitor, submit and troubleshoot Enterprise Scheduler Service (ESS) jobs through natural-language commands.",
+      "Developed backend integrations and flexible JSON-processing logic to retrieve, normalize and analyze job metadata, execution history, system status and logs across heterogeneous ESS workflows.",
+      "Designed the agent's prompts, tool schemas and orchestration logic to route each request to the right backend service.",
+      "Turned complex ESS data and system errors into concise, business-friendly explanations, so users can act on job failures without reading raw logs.",
+    ],
+  },
+  {
+    start: "2025-11",
+    org: "MorganHacks",
+    role: "President",
+    when: "nov 2025 – present",
+    where: "baltimore, md",
+    points: [
+      "Led MorganHacks 2026, which drew 400+ registrations and 180 hackers and raised $40K+ in sponsorships.",
+      "Spearheading planning for next year's event: coordinating with university stakeholders, securing external partnerships and sponsors, and leading a cross-functional organizing team.",
     ],
   },
 ];
@@ -179,6 +186,7 @@ export const honors: Honor[] = [
   { title: "2nd Place, Howard BisonHacks" },
   { title: "5th Place, Google HBCU Hackathon" },
   { title: "Dean's List, 6 semesters" },
+  { title: "Thurgood Marshall College Fund (TMCF) Scholar — academic support and leadership training" },
 ];
 
 export const skills: SkillGroup[] = [

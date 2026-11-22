@@ -3,7 +3,7 @@ import { Section } from "@/components/ui/section";
 
 export function HonorsSection() {
   return (
-    <Section id="honors" title="honors">
+    <Section id="honors" title="honors & scholarships">
       <dl className="pairs">
         {honors.map((honor) => (
           <div key={honor.title}>
